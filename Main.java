@@ -1,13 +1,58 @@
 import java.util.*;
-class GpsSensor{}
-class Bluetooth{}
-class Ultrasound{}
-class Warning{}
-class Controller{}
-class GUI{}
+class GpsSensor{
+    private double MyLocation;
+    public double getGPS(){}
+}
+class Bluetooth{
+    private double MyBit;
+    public double getBluetooth(){
+
+    }
+}
+class Ultrasound{
+    private double mchUltrasound;
+    private double Times;
+    public String IdentifyUltrasound() {
+    }
+    public double getUltrasound() {
+    }
+
+}
+class Warning{
+    public void useWarning(){}
+}
+class Controller{
+    private double Times;
+    private GpsSensor mygps;
+    private Ultrasound UltraS;
+    private double MyBluetooth;
+    private boolean SOS;
+    public double GetDetectHeartbeat(){}
+}
+class GUI{
+    private boolean MySOS;
+    private String Name;
+    private GpsSensor MyGPS;
+    private double MyHeartbeat;
+    public boolean Openlens(){}
+}
 class UserDatabase{}
 class DbController{}
-class DetectHeartbeat{}
-class Sos{}
-class SosController{}
+class DetectHeartbeat{
+    private double MyHeartbeat;
+    public double getMyHeartbeat(){}
+}
+class Sos{
+    private GUI Name;
+    private double mygps;
+    public void CallNumber(){}
+    public void SendMessage(){}
+}
+class SosController{
+    public double getlocation(){}
+    public double IdentifySOS(){}
+}
 class Lens{}
+public static void main(String[] args){
+
+}
