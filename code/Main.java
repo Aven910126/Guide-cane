@@ -68,5 +68,5 @@ class SosController{
 }
 class Lens{}
 public static void main(String[] args){
-
+    print("已開啟鏡頭")
 }
